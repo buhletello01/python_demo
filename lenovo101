@@ -1,0 +1,14 @@
+from bs4 import beautiful soup
+from urllib.request import urlopen
+
+url="http://warranty information.to scrape.com/"
+html=urlopen(url)
+
+soup=Beautiful Soup(html,"html.parser"
+type(soup)
+
+all_links=Soup Find All('div,{'class':'warranty  information'})
+str_cells=str(all_links)
+cleartext=Beautiful Soup(str_cells,"html.parser").get_text
+
+print(cleartext)
